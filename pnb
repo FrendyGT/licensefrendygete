@@ -46,7 +46,7 @@ if OwnerValidity == true and Owner == "FrendyGT" then
             bot:findPath(xp,yp)
             sleep(1000)
             bot.auto_collect = true
-            bot.collect_range = 1 
+            bot.collect_range = 2 
             sleep(500)
             bot.auto_collect = false
             if inventory:getItemCount(98) > 0 then
